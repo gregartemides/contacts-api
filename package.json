@@ -8,7 +8,7 @@
     "name": "Greg Artemides",
     "email": "gregoris.artemides@gmail.com",
     "url": "gregartemides.github.io"
-  }
+  },
   "scripts": {
     "start": "node server/server.js"
   },
