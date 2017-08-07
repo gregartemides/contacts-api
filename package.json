@@ -4,9 +4,7 @@
   "description": "Contacts - A Mongo-Express-NodeJS REST API",
   "keywords": ["REST", "API", "MongoDB", "Express", "NodeJS", "Tutorial", "Contacts", "CRUD"],
   "license": "MIT",
-  "name": "Greg Artemides",
-  "email": "gregoris.artemides@gmail.com",
-  "url": "gregartemides.github.io",
+  "author": "Greg Artemides <gregoris.artemides@gmail.com>",
   "scripts": {
     "start": "node server/server.js"
   },
