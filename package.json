@@ -1,0 +1,18 @@
+{
+  "name": "ContactsAPI",
+  "version": "1.0.0",
+  "description": "Contacts - A Mongo-Express-NodeJS REST API",
+  "keywords": ["REST", "API", "MongoDB", "Express", "NodeJS", "Tutorial", "Contacts", "CRUD"],
+  "license": "MIT",
+  "name": "Greg Artemides",
+  "email": "gregoris.artemides@gmail.com",
+  "url": "gregartemides.github.io",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.12.4",
+    "express": "~4.12.4",
+    "mongodb": "^2.2.30"
+  }
+}
