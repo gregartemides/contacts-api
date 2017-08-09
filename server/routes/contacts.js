@@ -26,7 +26,7 @@ router.post('/', function(req, res, next) {
 
 router.put('/', function(req, res, next) {
     contacts.updateOne(
-        { _id: new mongodb.ObjectID(req.body._id },
+        { _id: new mongodb.ObjectID(req.body._id) },
         { '$set': req.body },
         function(err, result) {
             if (err) throw err;
