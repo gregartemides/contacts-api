@@ -25,9 +25,11 @@ router.post('/', function(req, res, next) {
 });
 
 router.put('/', function(req, res, next) {
+    var _id = new mongodb.ObjectID(req.body._id);
+    delete req.body._id
     contacts.updateOne(
-        { _id: new mongodb.ObjectID(req.body._id) },
-        { '$set': req.body },
+        { _id: _id },
+        { $set: req.body },
         function(err, result) {
             if (err) throw err;
             res.json(req.body);
